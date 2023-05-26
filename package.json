@@ -1,0 +1,11 @@
+{
+  "name": "eslint-bitberry",
+  "version": "1.0.0",
+  "description": "Custom Bitberry ESLint Rules",
+  "author": "Bitberry GmbH",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "yarn run install:base",
+    "install:base": "cd packages/eslint-config-bitberry-base && yarn"
+  }
+}

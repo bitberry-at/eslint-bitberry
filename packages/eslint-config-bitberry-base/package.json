@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-bitberry-base",
+  "version": "0.1.0",
+  "description": "Custom Bitberry ESLint Rules",
+  "main": "index.js",
+  "author": "Bitberry GmbH",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
