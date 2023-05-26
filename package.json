@@ -1,11 +1,14 @@
 {
-  "name": "eslint-bitberry",
+  "name": "@bitberry/eslint-bitberry",
   "version": "1.0.0",
   "description": "Custom Bitberry ESLint Rules",
   "author": "Bitberry GmbH",
   "license": "MIT",
   "scripts": {
-    "preinstall": "yarn run install:base",
-    "install:base": "cd packages/eslint-config-bitberry-base && yarn"
+    "preinstall": "yarn run install:base && yarn run install:nuxt && yarn run install:nuxt3 && yarn run install:graphql",
+    "install:base": "cd packages/eslint-config-base && yarn",
+    "install:nuxt": "cd packages/eslint-config-nuxt && yarn",
+    "install:nuxt3": "cd packages/eslint-config-nuxt3 && yarn",
+    "install:graphql": "cd packages/eslint-config-graphql && yarn"
   }
 }

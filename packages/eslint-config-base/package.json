@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-bitberry-base",
+  "name": "@bitberry/eslint-config-base",
   "version": "0.1.0",
   "description": "Custom Bitberry ESLint Rules",
   "main": "index.js",
@@ -13,5 +13,13 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.41.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
