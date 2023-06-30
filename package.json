@@ -5,10 +5,11 @@
   "author": "Bitberry GmbH",
   "license": "MIT",
   "scripts": {
-    "preinstall": "yarn run install:base && yarn run install:nuxt && yarn run install:nuxt3 && yarn run install:graphql",
+    "preinstall": "yarn run install:base && yarn run install:nuxt && yarn run install:nuxt3 && yarn run install:graphql && yarn run install:typescript",
     "install:base": "cd packages/eslint-config-base && yarn",
     "install:nuxt": "cd packages/eslint-config-nuxt && yarn",
     "install:nuxt3": "cd packages/eslint-config-nuxt3 && yarn",
-    "install:graphql": "cd packages/eslint-config-graphql && yarn"
+    "install:graphql": "cd packages/eslint-config-graphql && yarn",
+    "install:typescript": "cd packages/eslint-config-typescript && yarn"
   }
 }
