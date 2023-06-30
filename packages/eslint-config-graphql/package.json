@@ -1,7 +1,7 @@
 {
-  "name": "@bitberry/eslint-config-nuxt",
-  "version": "0.1.0",
-  "description": "Custom Bitberry ESLint Rules for NuxtJS",
+  "name": "@bitberry/eslint-config-graphql",
+  "version": "0.1.1",
+  "description": "Custom Bitberry ESLint Rules for GraphQL",
   "main": "index.js",
   "author": "Bitberry GmbH",
   "keywords": [
@@ -9,7 +9,7 @@
     "eslintconfig",
     "config",
     "javascript",
-    "nuxt"
+    "graphql"
   ],
   "license": "MIT",
   "dependencies": {
