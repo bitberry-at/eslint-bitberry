@@ -7,5 +7,11 @@ module.exports = {
         'vue/attributes-order': 'warn',
         'vue/order-in-components': 'warn',
         'vue/html-indent': ['warn', 4]
-    }
+    },
+    overrides: [
+        {
+            files: ['*.vue'],
+            parser: 'vue-eslint-parser'
+        }
+    ]
 };
