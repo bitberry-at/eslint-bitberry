@@ -10,7 +10,11 @@ module.exports = {
     rules: {
         'vue/attributes-order': 'warn',
         'vue/order-in-components': 'warn',
-        'vue/html-indent': ['warn', 4]
+        'vue/html-indent': ['warn', 4],
+        'vue/max-attributes-per-line': ['warn', {
+            singleline: { max: 3 },
+            multiline: { max: 1 }
+        }]
     },
     overrides: [
         {
