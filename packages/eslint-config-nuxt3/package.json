@@ -1,6 +1,6 @@
 {
   "name": "@bitberry/eslint-config-nuxt3",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "Custom Bitberry ESLint Rules for Nuxt3",
   "main": "index.js",
   "author": "Bitberry GmbH",
@@ -23,6 +23,7 @@
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.41.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vue": "^9.14.1"
+    "eslint-plugin-vue": "^9.14.1",
+    "nuxt": "^3.6.2"
   }
 }
