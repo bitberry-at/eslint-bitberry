@@ -1,0 +1,23 @@
+{
+  "name": "@bitberry/nuxt3-module",
+  "version": "1.0.2",
+  "description": "Nuxt3 Module to generate ESLint Rules",
+  "main": "index.js",
+  "author": "Bitberry GmbH",
+  "keywords": [
+    "eslint",
+    "javascript",
+    "nuxt",
+    "nuxt3"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nuxt": "^3.6.2"
+  },
+  "peerDependencies": {
+    "nuxt": "^3.6.2"
+  }
+}
