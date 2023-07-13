@@ -1,5 +1,5 @@
 {
-  "name": "@bitberry/nuxt3-module",
+  "name": "@bitberry/nuxt3-eslint-module",
   "version": "1.0.2",
   "description": "Nuxt3 Module to generate ESLint Rules",
   "main": "index.js",
