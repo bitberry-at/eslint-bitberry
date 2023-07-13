@@ -1,0 +1,25 @@
+{
+  "name": "@bitberry/eslint-config-vitest",
+  "version": "0.1.0",
+  "description": "Custom Bitberry ESLint Rules for Vitest",
+  "main": "index.js",
+  "author": "Bitberry GmbH",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "vitest"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-plugin-vitest": "^0.2.6"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.41.0",
+    "eslint-plugin-vitest": "^0.2.6"
+  }
+}
