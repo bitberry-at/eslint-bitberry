@@ -11,6 +11,21 @@ module.exports = {
             ignoreRegExpLiterals: true
         }],
         'func-names': ['error', 'as-needed'],
+        'new-cap': [
+            'error',
+            {
+                newIsCap: true,
+                newIsCapExceptions: [],
+                newIsCapExceptionPattern: 'Model$',
+                capIsNew: false,
+                capIsNewExceptions: [
+                    'Immutable.Map',
+                    'Immutable.Set',
+                    'Immutable.List'
+                ],
+                properties: true
+            }
+        ],
 
         'keyword-spacing': 'warn',
         indent: [
@@ -20,13 +35,7 @@ module.exports = {
                 SwitchCase: 1
             }
         ],
-        'array-element-newline': [
-            'warn',
-            {
-                ArrayExpression: 'consistent',
-                ArrayPattern: { minItems: 3 }
-            }
-        ],
+        'array-element-newline': ['warn', 'consistent'],
         'sort-imports': ['warn', {
             ignoreCase: false,
             ignoreDeclarationSort: false,
@@ -77,6 +86,8 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-shadow': 'off',
         'no-restricted-syntax': 'off',
-        'prefer-destructuring': 'off'
+        'prefer-destructuring': 'off',
+        'import/prefer-default-export': 'off',
+        'class-methods-use-this': 'off'
     }
 };

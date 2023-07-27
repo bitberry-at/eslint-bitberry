@@ -1,6 +1,6 @@
 {
   "name": "@bitberry/eslint-config-typescript",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Custom Bitberry ESLint Typescript Rules",
   "main": "index.js",
   "author": "Bitberry GmbH",

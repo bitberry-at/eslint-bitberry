@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 const { rules: baseBestPracticesRules } = require('eslint-config-airbnb-base/rules/best-practices');
 const { rules: baseErrorsRules } = require('eslint-config-airbnb-base/rules/errors');
 const { rules: baseES6Rules } = require('eslint-config-airbnb-base/rules/es6');
@@ -6,7 +5,6 @@ const { rules: baseImportsRules } = require('eslint-config-airbnb-base/rules/imp
 const { rules: baseStyleRules } = require('eslint-config-airbnb-base/rules/style');
 const { rules: baseVariablesRules } = require('eslint-config-airbnb-base/rules/variables');
 const { rules: bitberryRules } = require('@bitberry/eslint-config-base');
-/* eslint-enable import/no-extraneous-dependencies */
 
 const baseRules = {
     ...baseBestPracticesRules,
@@ -32,6 +30,7 @@ if (typeof baseRules['comma-dangle'][1] === 'object') {
 module.exports = {
     plugins: ['@typescript-eslint'],
     parser: '@typescript-eslint/parser',
+    extends: ['plugin:@typescript-eslint/recommended-type-checked'],
     settings: {
         // Apply special parsing for TypeScript files
         'import/parsers': {
