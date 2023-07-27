@@ -14,7 +14,11 @@ module.exports = {
         'vue/max-attributes-per-line': ['warn', {
             singleline: { max: 3 },
             multiline: { max: 1 }
-        }]
+        }],
+        "import/no-extraneous-dependencies": [
+            "error",
+            { devDependencies: true }
+        ]
     },
     overrides: [
         {

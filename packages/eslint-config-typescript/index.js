@@ -30,7 +30,7 @@ if (typeof baseRules['comma-dangle'][1] === 'object') {
 module.exports = {
     plugins: ['@typescript-eslint'],
     parser: '@typescript-eslint/parser',
-    extends: ['plugin:@typescript-eslint/recommended-type-checked'],
+    extends: ['plugin:@typescript-eslint/recommended-requiring-type-checking'],
     settings: {
         // Apply special parsing for TypeScript files
         'import/parsers': {
