@@ -36,11 +36,6 @@ module.exports = {
             }
         ],
         'array-element-newline': ['warn', 'consistent'],
-        'sort-imports': ['warn', {
-            ignoreCase: false,
-            ignoreDeclarationSort: false,
-            allowSeparatedGroups: true
-        }],
         'no-multi-spaces': ['warn', {
             ignoreEOLComments: false,
         }],
@@ -88,6 +83,9 @@ module.exports = {
         'no-restricted-syntax': 'off',
         'prefer-destructuring': 'off',
         'import/prefer-default-export': 'off',
-        'class-methods-use-this': 'off'
+        'class-methods-use-this': 'off',
+        'no-plusplus': 'off',
+        'no-continue': 'off',
+        'sort-imports': 'off'
     }
 };
