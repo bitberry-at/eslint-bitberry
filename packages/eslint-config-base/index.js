@@ -73,7 +73,7 @@ module.exports = {
         'space-before-function-paren': ['warn', 'never'],
         'space-before-blocks': ['warn', 'always'],
         'arrow-body-style': ['warn', 'as-needed'],
-        'no-console': ['warn', { allow: ['warn', 'error'] }],
+        'no-console': 'warn',
 
         'func-style': 'off',
         yoda: 'off',
