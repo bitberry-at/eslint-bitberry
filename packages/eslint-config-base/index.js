@@ -86,6 +86,7 @@ module.exports = {
         'class-methods-use-this': 'off',
         'no-plusplus': 'off',
         'no-continue': 'off',
-        'sort-imports': 'off'
+        'sort-imports': 'off',
+        'import/no-extraneous-dependencies': 'off'
     }
 };

@@ -1,6 +1,6 @@
 {
   "name": "@bitberry/eslint-config-typescript",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "Custom Bitberry ESLint Typescript Rules",
   "main": "index.js",
   "author": "Bitberry GmbH",
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@bitberry/eslint-config-base": "^0.1.1",
+    "@bitberry/eslint-config-base": "^0.1.4",
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "eslint-config-airbnb-base": "^15.0.0"

@@ -12,8 +12,6 @@
     "nuxt"
   ],
   "license": "MIT",
-  "dependencies": {
-  },
   "devDependencies": {
     "eslint": "^8.41.0",
     "eslint-plugin-nuxt": "^4.0.0",

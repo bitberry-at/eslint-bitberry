@@ -1,6 +1,6 @@
 {
   "name": "@bitberry/eslint-config-nuxt3",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Custom Bitberry ESLint Rules for Nuxt3",
   "main": "index.js",
   "author": "Bitberry GmbH",
@@ -13,8 +13,6 @@
     "nuxt3"
   ],
   "license": "MIT",
-  "dependencies": {
-  },
   "devDependencies": {
     "eslint": "^8.41.0",
     "eslint-plugin-nuxt": "^4.0.0",

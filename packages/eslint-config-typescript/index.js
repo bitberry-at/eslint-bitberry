@@ -27,6 +27,15 @@ if (typeof baseRules['comma-dangle'][1] === 'object') {
     };
 }
 
+if (typeof baseRules['import/no-extraneous-dependencies'] === 'string') {
+    baseRules['import/no-extraneous-dependencies'] = [
+        baseRules['import/no-extraneous-dependencies'],
+        {
+            devDependencies: []
+        }
+    ];
+}
+
 module.exports = {
     plugins: ['@typescript-eslint'],
     parser: '@typescript-eslint/parser',
