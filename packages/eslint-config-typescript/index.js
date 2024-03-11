@@ -51,6 +51,9 @@ module.exports = {
             node: {
                 extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'],
             },
+            typescript: {
+                alwaysTryTypes: true
+            }
         },
         // Append 'ts' extensions to Airbnb 'import/extensions' setting
         // Original: ['.js', '.mjs', '.jsx']
